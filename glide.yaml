@@ -1,0 +1,9 @@
+package: github.com/awaluddin/sample-api-beego
+import:
+- package: github.com/astaxie/beego
+  subpackages:
+  - context/param
+testImport:
+- package: github.com/smartystreets/goconvey
+  subpackages:
+  - convey
